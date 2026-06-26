@@ -1,0 +1,3 @@
+# Keep the CUB_200_2011 folder, ignore everything inside it
+RAW/CUB_200_2011/*
+!RAW/CUB_200_2011/.gitkeep
