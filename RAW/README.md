@@ -64,6 +64,3 @@ The assignment is **CSC8637 "Deep Learning"**, Newcastle University, hand-in 20 
 - Trained on Agatha Christie's writing, so output should echo her style.
 - Deliverables: a half-page report (with example generations), full runnable code that takes user words as input and outputs a sentence or more, and model checkpoints. Marking also asks for a comparison against an LLM (e.g. ChatGPT) producing Christie-style text.
 
-## A note on this directory
-
-`RAW/` was committed with the **entire dataset and working artifacts** (images, `.DS_Store`/`Thumbs.db` files, the brief PDF). That makes the repository large. The dataset is reproducible from the source above, so consider replacing the committed `CUB_200_2011/` with a download script and a `.gitignore` rather than versioning ~12,000 binary images.
